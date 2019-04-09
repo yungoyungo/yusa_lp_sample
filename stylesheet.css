@@ -1,0 +1,20 @@
+.test{
+    color:red;
+    float:left;
+    padding:100px
+    font-size:40px;
+}
+
+.header-logo{
+    height:400px;
+    background-color:#aaa;
+}
+
+.content_figure{
+    background-color: #aaa;
+    height:100px;
+}
+
+.line_figure{
+    height:30px;
+}
