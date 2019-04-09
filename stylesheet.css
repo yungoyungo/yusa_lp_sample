@@ -18,3 +18,7 @@
 .line_figure{
     height:30px;
 }
+
+ul {
+    list-style: none;
+}
