@@ -5,20 +5,54 @@
     font-size:40px;
 }
 
-.header-logo{
-    height:400px;
-    background-color:#aaa;
+.container{
+    width: 600px;
+    margin: auto;
+}
+
+@media screen and (max-width: 600px) {
+    body{ 
+        background-color: #054be1!important;
+    }
+}
+
+.omakase_logo{
+    padding: 20px;
+    float: right;
+}
+
+.omakase_text{
+    color: white;
+}
+
+.top_background{
+    background-color: black;
+
+}
+
+
+.top{
+    background-color: #000;
+    height: auto;
+}
+
+.top h1, h2{
+    color: white;
+    font-size: 40px;
 }
 
 .content_figure{
-    background-color: #aaa;
-    height:100px;
-}
-
-.line_figure{
-    height:30px;
+    width: 50%;
+    margin: auto;
 }
 
 ul {
     list-style: none;
+}
+
+.section_title{
+    font-size: 24px;
+}
+
+body{
 }
