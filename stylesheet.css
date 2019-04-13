@@ -37,9 +37,10 @@
 
 .top h1{
     color: white;
-    font-size: 200%;
+    font-size: 5vw;
     line-height: 2em;
-    letter-spacing: 0.5em;
+    letter-spacing: 0.3em;
+    white-space: nowrap;
 }
 
 .top .subtitle{
@@ -47,6 +48,7 @@
     /* display:inline; */
     font-size: 30%;
     letter-spacing: 0.3em;
+    white-space: nowrap;
 }
 
 .content_figure{
