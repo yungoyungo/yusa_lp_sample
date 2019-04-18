@@ -30,6 +30,10 @@ header{
     background-color: black;
 }
 
+.background_gray{
+    background-color: #EEE;
+}
+
 .container{
     width: 600px;
     margin: auto;
@@ -100,7 +104,7 @@ header{
 
 .content_text{
     line-height: 2em;
-    font-size: 1.5vw;
+    /* font-size: 1.5vw; */
 }
 
 .btn-flat-border {/* 
@@ -142,23 +146,22 @@ header{
   } */
 
 .intro .navi ul{
-    text-align: center;
     width: 100%;
-    margin: 0 auto;
+    margin: 30px auto;
 }
 
 .intro .navi ul li {
     /* list-style: none; */
     /* display: inline; */
-    margin: 30px;
+    text-align: center;
+    margin: auto;
     background: #054be1;
     color: #FFF;
     width: 80px;
     height: 80px;
     line-height: 80px;
     border-radius: 50%;
-    /* margin: 0 auto; */
-    float: left;
+    /* float: left; */
     /* display: inline-block;  */
     display: table-cell;
 }
@@ -178,14 +181,14 @@ header{
     line-height: 80px;
     border-radius: 50%;
     border: solid 2px #003ce0;
-    margin: 0 auto;
+    margin: 20px auto;
     color: #003ce0;
 }
 
 .section_title{ 
-    font-size: 2vw;
-    /* border-bottom: solid 3px #000; */
-    text-decoration: underline;
+    font-size: 30px;
+    border-bottom: solid 3px #000;
+    /* text-decoration: underline; */
     text-align: center;
     line-height: 2em;
     letter-spacing: 0.1em;
@@ -210,10 +213,18 @@ header{
 
 #why .compair{
     text-align: center;
-    width: 800px;
 }
 
 #why .container_left{
+    text-align: center;
+    width: 49%;
+    display: inline-block;
+    line-height: 2em;
+    letter-spacing: 0.3em;
+    margin-bottom: 50px;
+}
+
+#why .container_right{
     text-align: center;
     width: 49%;
     display: inline-block;
@@ -223,14 +234,6 @@ header{
 
 #why .container_left h2,.container_right h2{
     color: #003ce0;
-}
-
-#why .container_right{
-    text-align: center;
-    width: 49%;
-    display: inline-block;
-    line-height: 2em;
-    letter-spacing: 0.3em;
 }
 
 #why img{
