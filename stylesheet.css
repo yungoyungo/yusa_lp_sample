@@ -1,8 +1,29 @@
 .test{
 }
 
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    body{ 
+        background-color: #054be1!important;
+    }
+    .container{
+        width: 400px!important;
+    }
+    .container_top{
+        width: 400px!important;
+        padding: 5%;
+        margin: auto;
+        margin-top: -10vw!important;
+    }
+}
+
 body{
-    min-width: 300px;
+    min-width: 400px;
 }
 
 header{
@@ -10,7 +31,7 @@ header{
 }
 
 .container{
-    width: 50vw;
+    width: 600px;
     margin: auto;
 }
 
@@ -18,7 +39,7 @@ header{
     width: 70vw;
     padding: 5%;
     margin: auto;
-    margin-top: -100px!important;
+    margin-top: -10vw!important;
 }
 
 .container_top h1{
@@ -55,21 +76,6 @@ header{
     margin-top: -10vw!important;
 }
 
-.clearfix::after{
-    content: "";
-    display: block;
-    clear: both;
-}
-
-@media screen and (max-width: 600px) {
-    body{ 
-        background-color: #054be1!important;
-    }
-    .container{
-        width: 90%;
-    }
-
-}
 
 .omakase_logo{
     padding: 20px;
@@ -94,10 +100,10 @@ header{
 
 .content_text{
     line-height: 2em;
-    font-size: 50%
+    font-size: 1.5vw;
 }
 
-.btn-flat-border {
+.btn-flat-border {/* 
     text-align: center;
     display: inline-block;
     padding: 0.3em 1em;
@@ -106,26 +112,93 @@ header{
     border: solid 2px #67c5ff;
     border-radius: 3px;
     transition: .4s;
+    width: 70vw;
+    max-width: 50%;
+    margin: 2vw auto; */
 }
-  
+  /* 
 .btn-flat-border:hover {
     background: #67c5ff;
     color: white;
+} */
+
+.btn-circle-flat {
+    /* display: inline-block;
+    text-decoration: none;
+    background: #054be1;
+    color: #FFF;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden;
+    transition: .4s; */
+  }
+  /* 
+  .btn-circle-flat:hover {
+    background: #668ad8;
+  } */
+
+.intro .navi ul{
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
 }
 
-ul {
-    list-style: none;
+.intro .navi ul li {
+    /* list-style: none; */
+    /* display: inline; */
+    margin: 30px;
+    background: #054be1;
+    color: #FFF;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    border-radius: 50%;
+    /* margin: 0 auto; */
+    float: left;
+    /* display: inline-block;  */
+    display: table-cell;
 }
 
-.section_title{
-    font-size: 24px;
+/* .intro li:first-child {
+ margin-left: 0;
+}
+
+.intro li+li {
+   margin-left: 20%;
+} */
+
+.section_icon{
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    border-radius: 50%;
+    border: solid 2px #003ce0;
+    margin: 0 auto;
+    color: #003ce0;
+}
+
+.section_title{ 
+    font-size: 2vw;
+    /* border-bottom: solid 3px #000; */
+    text-decoration: underline;
+    text-align: center;
+    line-height: 2em;
+    letter-spacing: 0.1em;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .intro h2{
     text-align: center;
+    margin-top: 5%;
     line-height: 2em;
     letter-spacing: 0.3em;
-    font-size: 1vw;
+    font-size: 1.5vw;
 }
 
 .intro h1{
@@ -133,4 +206,33 @@ ul {
     line-height: 2em;
     letter-spacing: 0.3em;
     font-size: 4vw;
+}
+
+#why .compair{
+    text-align: center;
+    width: 800px;
+}
+
+#why .container_left{
+    text-align: center;
+    width: 49%;
+    display: inline-block;
+    line-height: 2em;
+    letter-spacing: 0.3em;
+}
+
+#why .container_left h2,.container_right h2{
+    color: #003ce0;
+}
+
+#why .container_right{
+    text-align: center;
+    width: 49%;
+    display: inline-block;
+    line-height: 2em;
+    letter-spacing: 0.3em;
+}
+
+#why img{
+    width: 100%;
 }
