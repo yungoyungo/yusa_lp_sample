@@ -37,6 +37,7 @@ header{
 .container{
     width: 600px;
     margin: auto;
+    padding: 30px 0;
 }
 
 .container_top{
@@ -148,29 +149,32 @@ header{
 .intro .navi ul{
     width: 100%;
     margin: 30px auto;
+    display: flex;
+    justify-content: center;
 }
 
-.intro .navi ul li {
+.intro .navi .btn-circle-flat{
     /* list-style: none; */
-    /* display: inline; */
+    display: block;
     text-align: center;
-    margin: auto;
-    background: #054be1;
+    /* margin: auto; */
+    background: linear-gradient(to bottom, #5af, #054be1);
     color: #FFF;
     width: 80px;
     height: 80px;
     line-height: 80px;
     border-radius: 50%;
+    text-decoration: none;
     /* float: left; */
     /* display: inline-block;  */
-    display: table-cell;
+    /* display: table-cell; */
 }
 
 /* .intro li:first-child {
  margin-left: 0;
-}
+}*/
 
-.intro li+li {
+/* .intro li+li {
    margin-left: 20%;
 } */
 
@@ -183,20 +187,21 @@ header{
     border: solid 2px #003ce0;
     margin: 20px auto;
     color: #003ce0;
+    font-weight: bold;
 }
 
 .section_title{ 
+    display: inline-block;
     font-size: 30px;
     border-bottom: solid 3px #000;
     /* text-decoration: underline; */
     text-align: center;
     line-height: 2em;
     letter-spacing: 0.1em;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin: 50px auto;
 }
 
-.intro h2{
+.intro_subtitle{
     text-align: center;
     margin-top: 5%;
     line-height: 2em;
@@ -238,4 +243,26 @@ header{
 
 #why img{
     width: 100%;
+}
+
+#how .section_title {
+    text-align: center!important;
+}
+
+#how .how_num{
+    display: inline-block;
+    font-size: 30px;
+    border-bottom: solid 3px #000;
+    line-height: 1.5em;
+    font-weight: bold;
+}
+
+#how .process{
+    display: inline-block;
+    width: 80%;
+    line-height: 1.5em;
+}
+
+#how ol{
+    list-style: none;
 }
