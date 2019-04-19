@@ -100,51 +100,20 @@ header{
 
 .top_background{
     background-color: black;
-
 }
+
 
 .content_text{
     line-height: 2em;
     /* font-size: 1.5vw; */
 }
 
-.btn-flat-border {/* 
+.crossline{
+    display: block;
     text-align: center;
-    display: inline-block;
-    padding: 0.3em 1em;
-    text-decoration: none;
-    color: #67c5ff;
-    border: solid 2px #67c5ff;
-    border-radius: 3px;
-    transition: .4s;
-    width: 70vw;
-    max-width: 50%;
-    margin: 2vw auto; */
+    margin: 30px auto;
+    height:30px;
 }
-  /* 
-.btn-flat-border:hover {
-    background: #67c5ff;
-    color: white;
-} */
-
-.btn-circle-flat {
-    /* display: inline-block;
-    text-decoration: none;
-    background: #054be1;
-    color: #FFF;
-    width: 80px;
-    height: 80px;
-    line-height: 80px;
-    border-radius: 50%;
-    text-align: center;
-    vertical-align: middle;
-    overflow: hidden;
-    transition: .4s; */
-  }
-  /* 
-  .btn-circle-flat:hover {
-    background: #668ad8;
-  } */
 
 .intro .navi ul{
     width: 100%;
@@ -245,10 +214,6 @@ header{
     width: 100%;
 }
 
-#how .section_title {
-    text-align: center!important;
-}
-
 #how .how_num{
     display: inline-block;
     font-size: 30px;
@@ -265,4 +230,11 @@ header{
 
 #how ol{
     list-style: none;
+}
+
+#story h2{
+    /* padding-left: 10%; */
+    line-height: 2em;
+    /* letter-spacing: 0.3em; */
+    font-size: 150%;
 }
