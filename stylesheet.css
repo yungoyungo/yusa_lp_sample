@@ -220,6 +220,7 @@ header{
     border-bottom: solid 3px #000;
     line-height: 1.5em;
     font-weight: bold;
+    margin: 30px;
 }
 
 #how .process{
@@ -229,6 +230,9 @@ header{
 }
 
 #how ol{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
     list-style: none;
 }
 
@@ -237,4 +241,37 @@ header{
     line-height: 2em;
     /* letter-spacing: 0.3em; */
     font-size: 150%;
+}
+
+.title_wrap{
+    text-align: center;
+}
+
+.right_content{
+    font-size: 14px;
+    text-align: right;
+    margin: 50px 0px;
+}
+.right_content a:link{
+    color: #000;
+}
+.right_content a:visited{
+    color: #000;
+}
+
+.to_top_button{
+    display: block;
+    margin-top: 60px;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-left: auto;
+    background: linear-gradient(to bottom, #5af, #054be1);
+    color: #FFF;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: none;
 }
