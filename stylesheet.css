@@ -363,4 +363,19 @@ header{
     width: 50%;
     font-size: 100%;
     border-radius: 5px;
+    box-shadow: none;
+}
+
+.submit_button{
+    display: block;
+    margin: 15px auto;
+    height: 50px;
+    width: 50%;
+    background-color: #003ce0;
+    color: #FFF;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    font-size: 100%;
 }
